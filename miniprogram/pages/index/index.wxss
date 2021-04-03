@@ -1,0 +1,49 @@
+.banner{height:400rpx;border:1rpx solid black;}
+.banner image{width:100%;height:400rpx;}
+.bannerItem{padding:0 5rpx;box-sizing:border-box;}
+
+.button{
+  position: absolute;
+  bottom: 100rpx;
+  width: 100%;
+}
+.aon{
+position: absolute;
+white-space:nowrap;/* 防止向下换行*/
+}
+.doommview{
+  z-index: 3;
+  height: 50%;
+  width: 100%;
+  position: absolute;
+}
+/**定义从右边向左边的移动的动画**/
+@keyframes first{
+  from{left: 100%; }
+  to{left: -100%;}
+}
+.kfimg{padding-top:15rpx;width: 50rpx;height: 50rpx;}
+.kfbtn{border-radius: 100%;position:fixed; top:500px; right:5px;}
+.modal-mask {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #000;
+  opacity: 0.5;
+  z-index:999;
+}
+.modal-dialog {
+  overflow: hidden;
+  position: fixed;
+  top: 30%;
+  background: #f9f9f9;
+  margin: -110rpx 105rpx;
+  z-index:999;
+}
+.view-image{
+  width: 600rpx;
+  height: 600rpx;
+  z-index:999;
+}

@@ -1,0 +1,6 @@
+<view class="container">
+  <image class="topimage" src='{{welcomeimg}}'></image>
+  <text class="centertext">Enter The TreeHole App</text>
+  <button class="loginbtn" open-type="getUserInfo" 
+  bindgetuserinfo="getUserInfo">Enter</button>
+</view>

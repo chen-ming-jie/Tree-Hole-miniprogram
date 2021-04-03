@@ -1,0 +1,40 @@
+{
+  "pages":[
+    "pages/welcome/welcome",
+    "pages/index/index",
+    "pages/tree/tree",
+    "pages/fm/fm",
+    "pages/publishTopics/publishTopics",
+    "pages/comments/comments",
+    "pages/thumbup/thumbup",
+    "pages/topicDetials/topicDetials"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "老友团Space",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar":{
+    "list":[
+      {
+        "pagePath":"pages/index/index",
+        "text":"Home",
+        "iconPath":"images/index1.png",
+        "selectedIconPath":"images/index2.png"
+      },{
+        "pagePath":"pages/tree/tree",
+        "text":"Tree",
+        "iconPath":"images/tree1.png",
+        "selectedIconPath":"images/tree2.png"
+      },{
+        "pagePath":"pages/fm/fm",
+        "text":"FM",
+        "iconPath":"images/fm1.png",
+        "selectedIconPath":"images/fm2.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
