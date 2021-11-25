@@ -1,0 +1,11 @@
+{
+  "usingComponents": {},
+
+  "backgroundTextStyle":"light",
+  "navigationBarBackgroundColor": "#fff",
+  "navigationBarTitleText": "TreeHole",
+  "navigationBarTextStyle":"black",
+
+  "enablePullDownRefresh": true,
+  "onReachBottomDistance": 0
+}

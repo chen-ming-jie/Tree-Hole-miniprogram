@@ -1,0 +1,16 @@
+{
+  "usingComponents": {
+    "v-comment":"/components/comment/index",
+    "v-reply":"/components/replycomment/index",
+    "v-input": "/components/commentinput/index"
+  },
+  
+  "navigationBarBackgroundColor": "#ffffff",
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "Topic",
+  "backgroundColor": "#eeeeee",
+  "backgroundTextStyle": "light",
+
+  "enablePullDownRefresh": true,
+  "onReachBottomDistance": 0
+}
